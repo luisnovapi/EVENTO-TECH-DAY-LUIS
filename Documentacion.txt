@@ -1,0 +1,56 @@
+# Documentación API
+
+POR FAVOR LEER CUIDADOSAMENTE ESTE DOCUMENTO Y TOMAR EN CONSIDERACIÓN LAS SUGERENCIAS PARA QUE PUEDA PROBARLO
+
+
+// EVENTO_ITLA_TECH_DAY
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Para ir a la Documentacion de esta API en Postman --> (https://documenter.getpostman.com/view/8884929/SW7W5pWP?version=latest)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+---Instalar Recursos Necesarios:
+
+# npm 
+
+Install
+
+--- bash ---
+ npm install
+***
+
+--- Ejecutar esta API
+
+# run dev
+
+--- bash ---
+ npm run dev
+***
+
+# Base de Datos
+
+//Debe de crearse la base de datos: evento_tech_day; ya que el directorio solo contiene las tablas.
+
+Para cambiar los arguementos de la conexion debe de ir a `src/models/` y abrir  `conexion.js` 
+
+en "conexion.js" debe de cambiar los argumentos por los que corresponden a los suyos.
+
+# Rutas
+
+- /api/charlas
+- /api/expositors
+
+
+# Metodos
+
+      | Metodos |
+
+|  	GET 		      |
+|  	GET/{id}      	      |
+|  	POST                  |
+|  	PUT/{id}              |
+|  	DELETE/{id}           |
+

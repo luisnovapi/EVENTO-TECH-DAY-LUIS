@@ -1,0 +1,53 @@
+body {
+
+    font: 10px;
+    
+    text-align: center;
+    
+    background-color: #ffffff;
+    
+    }
+    
+    p{
+    
+    font-size:12ppx;
+    
+    color:rgb(28, 28, 29);
+    
+    text-align:center;
+    
+    }
+    
+    
+    h1{
+    
+    color:#FF0000;
+    
+    text-align:left;
+    
+    }
+    
+    h2{
+        text-align:left;
+    }
+    
+    #app{
+    
+    font-style:italic;
+    text-align:center;
+    border-bottom:2px #202020 solid;
+    font-size:15px;
+    background-color: #ffffff;
+    
+    }
+    
+    #menu{
+
+        text-align:center;
+        border-bottom:2px #202020 solid;
+        font-size:25px;
+        background-color: #ffffff;
+
+
+    }
+  
